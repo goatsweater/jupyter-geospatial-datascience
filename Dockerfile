@@ -1,10 +1,32 @@
 FROM jupyter/datascience-notebook:latest
 
 RUN conda install --quiet --yes \
-    gdal \
+    cartopy \
+    colorama \
+    dask[complete] \
+    datashader \
+    feather-format \
     fiona \
-    rasterio \
+    gdal \
     geopandas \
+    geopy \
+    ipyleaflet \
+    ipyparallel \
+    ipywidegts \
+    mapclassify \
+    networkx \
+    pillow \
+    pyarrow \
+    pysal \
+    rasterio \
+    rasterstats \
+    scikit-image \
+    scikit-learn \
+    seaborn \
+    shapely \
+    tables \
+    xlrd \
+    xlswriter \
     && \
     conda clean --all -f -y
 
