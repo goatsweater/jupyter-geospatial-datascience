@@ -17,6 +17,7 @@ RUN conda install --quiet --yes \
     networkx \
     pillow \
     pyarrow \
+    pyproj \
     pysal \
     rasterio \
     rasterstats \
